@@ -1,0 +1,82 @@
+html, body {
+  margin: 0px;
+}
+
+.container__background {
+	width: 100%;
+	height: 100%;
+	background: #b5b5b5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+.header__parent {
+	height: 25%;
+  width: 80%;
+  min-height: 150px;
+  background: white;
+  margin: 0 auto;
+  display: fixed;
+}
+
+.header__text {
+	width: 90%;
+	height: 70%;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+.header__button__red {
+	background: red;
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.header__button__blue {
+	background: blue;
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.body__parent {
+  height: 65%;
+  width: 80%;
+  background: white;
+  margin: 0 auto;
+
+}
+
+.body__image {
+	height: 60%;
+	width: 90%;
+	background: url(http://cdn.onextrapixel.com/wp-content/uploads/2013/10/20-nasa-prospect.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 5%
+}
+
+.body__text {
+	font-size: 12px;
+	width: 90%;
+	height: 30%;
+	margin: 0 auto;
+}
+
+.footer {
+	height: 30px;
+	width: 100%;
+	background: #444;
+}
+
+.button {
+	float: right;
+
+	margin-right: 10px;
+}

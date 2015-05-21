@@ -1,0 +1,86 @@
+html, body {
+  margin: 5px;
+}
+
+.parent {
+	height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header__one {
+  height: 80px;
+  width: 31%;
+  background: red;
+}
+
+.header__two {
+  height: 80px;
+  width: 31%;
+  background: blue;
+}
+
+.header__three {
+  height: 80px;
+  width: 31%;
+  background: #444;
+}
+
+.textBody {
+	font-size: 12px;
+	height: 30%;
+	width: 100%;
+	padding: 10px;
+	background: white;
+	overflow: auto;
+}
+
+.blueAT {
+	height: 30%;
+	width: 70%;
+	background: blue;
+	display: inline-block;
+}
+
+.redAT {
+	height: 30%;
+	width: 30%;
+	background: red;
+	float: left;
+}
+
+.space {
+	height: 2%;
+	width: 100%;
+	background: white;
+}
+
+.footer {
+	height: 15%;
+	/*width: 50%;
+	background: blue;*/
+	float: left;
+  display: inline-block;
+}
+.one {
+	width: 70%;
+	background: blue;
+}
+
+.two {
+	width: 5%;
+	background: red;
+}
+
+.three {
+	width: 20%;
+	background: gray;
+}
+
+.four {
+	width: 5%;
+	background: red;
+}
+
